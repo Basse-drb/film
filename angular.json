@@ -31,7 +31,8 @@
               "src/assets"
             ],
             "styles": [
-              "src/styles.scss"
+              "src/styles.scss",
+              "node_modules/bulma/css/bulma.min.css"
             ],
             "scripts": []
           },
@@ -126,6 +127,10 @@
           }
         }
       }
-    }},
-  "defaultProject": "film"
+    }
+  },
+  "defaultProject": "film",
+  "cli": {
+    "analytics": "7869f0fe-8899-403c-8e56-e1a83fe29d22"
+  }
 }
